@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=P4_Evangelista_Andrew_Illusion
+comment0.text=\n\ Write\ a\ description\ of\ class\ P4_Evangelista_Andrew_Illusion\ here.\n\n\ This\ class\ describes\ a\ optical\ illusion\ using\ helper\ methods.\n
+comment1.params=size\ color\ x\ y\ pen
+comment1.target=void\ drawSquare(int,\ java.awt.Color,\ int,\ int,\ gpdraw.DrawingTool)
+comment1.text=\ \n\ This\ method\ draws\ a\ square\n\ @param\ size\ size\ of\ the\ square\n\ @param\ color\ color\ of\ the\ square\n\ @param\ x\ x\ position\ of\ the\ square\n\ @param\ y\ y\ position\ of\ the\ square\n\ @param\ pen\ drawingtool\ used\ to\ draw\ square\n
+comment2.params=size\ x\ y\ length\ pen
+comment2.target=void\ drawLine(int,\ int,\ int,\ int,\ gpdraw.DrawingTool)
+comment2.text=\n\ this\ method\ draws\ a\ line\ \n\ @param\ size\ size\ of\ the\ square\ used\ to\ correlate\ to\ thickness\ of\ line\n\ @param\ x\ x\ value\ of\ line\n\ @param\ y\ y\ value\ pos\ of\ line\n\ @param\ length\ length\ of\ the\ line\n\ @param\ pen\ drawing\ tool\ used\ to\ draw\n
+comment3.params=num\ size\ x\ y\ pen
+comment3.target=void\ drawColumn(int,\ int,\ int,\ int,\ gpdraw.DrawingTool)
+comment3.text=\ \n\ this\ method\ draws\ a\ column\ of\ black\ and\ white\ alternating\ squares\n\ @param\ num\ num\ of\ squares\n\ @param\ size\ size\ of\ the\ square\n\ @param\ x\ x\ value\ of\ starting\ left\ center\ square\n\ @param\ y\ value\ of\ starting\ left\ center\ square\n\ @param\ pen\ drawingtool\ used\ to\ draw\n
+comment4.params=numColumns\ numSquareColumn\ size\ x\ y\ offset\ pen
+comment4.target=void\ draw(int,\ int,\ int,\ int,\ int,\ int,\ gpdraw.DrawingTool)
+comment4.text=\ \n\ this\ method\ draws\ the\ entire\ illusion\n\ @param\ numColumns\ number\ of\ columns\n\ @param\ numSquareColumn\ number\ of\ squares\ in\ a\ column\n\ @param\ size\ size\ of\ square\n\ @param\ x\ starting\ pos\ of\ top\ left\ center\ of\ square\n\ @param\ y\ starting\ pos\ of\ y\ value\ of\ top\ left\ center\ square\n\ @param\ offset\ offset\ you\ want\ square\ to\ move\n\ @param\ pen\ Drawing\ tool\ used\ to\ draw\ \n
+numComments=5

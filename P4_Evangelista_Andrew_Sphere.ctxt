@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=P4_Evangelista_Andrew_Sphere
+comment0.text=\n\ \ \ \ Name\:\ \ \ \ \ \ \ Andrew\n\ \ \ \ Date\:\ \ \ \ \ \ \ 9/10\n\ \ \ \ Period\:\ \ \ \ \ 4\n\n\ \ \ \ Is\ this\ lab\ fully\ working?\ \ Yes\n
+comment1.params=
+comment1.target=P4_Evangelista_Andrew_Sphere()
+comment2.params=radius\ pad
+comment2.target=P4_Evangelista_Andrew_Sphere(double,\ gpdraw.SketchPad)
+comment3.params=radius
+comment3.target=void\ getVolume(int)
+comment4.params=radius
+comment4.target=void\ setRadius(int)
+comment5.params=x\ y
+comment5.target=void\ setPos(int,\ int)
+comment6.params=pad
+comment6.target=void\ draw(gpdraw.SketchPad)
+numComments=7

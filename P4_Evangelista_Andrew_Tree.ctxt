@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=P4_Evangelista_Andrew_Tree
+comment0.text=\n\ The\ P4_Evangelista_Andrew_Tree\ class\ provides\ methods\ to\ draw\ a\ fractal\ tree\ using\ the\ gpdraw\ API.\n\ This\ class\ offers\ flexibility\ in\ controlling\ the\ starting\ position,\ branch\ length,\ and\ depth\ of\ recursion\ for\ the\ tree.\n\ \n\ Example\ usage\:\n\ <pre>\n\ P4_Evangelista_Andrew_Tree\ tree\ \=\ new\ P4_Evangelista_Andrew_Tree(pad,\ 100,0);\n\ \ \ tree.setPos(100,\ 0);\n\ \ \ tree.drawTree(50,5);\n\ </pre>\n
+comment1.params=pad\ startX\ startY
+comment1.target=P4_Evangelista_Andrew_Tree(gpdraw.SketchPad,\ double,\ double)
+comment1.text=\n\ Constructs\ a\ new\ fractal\ tree\ instance\ with\ a\ specified\ starting\ position.\n\n\ @param\ pad\ \ \ \ \ the\ SketchPad\ to\ draw\ on\n\ @param\ startX\ \ the\ x-coordinate\ for\ the\ base\ of\ the\ tree\n\ @param\ startY\ \ the\ y-coordinate\ for\ the\ base\ of\ the\ tree\n
+comment2.params=pad
+comment2.target=P4_Evangelista_Andrew_Tree(gpdraw.SketchPad)
+comment2.text=\n\ Constructs\ a\ new\ fractal\ tree\ instance\ with\ a\ default\ starting\ position\ (centered\ at\ the\ bottom).\n\n\ @param\ pad\ the\ SketchPad\ to\ draw\ on\n
+comment3.params=x\ y
+comment3.target=P4_Evangelista_Andrew_Tree\ setPos(double,\ double)
+comment3.text=\n\ Sets\ the\ starting\ position\ for\ the\ base\ of\ the\ tree.\n\ \n\ @param\ x\ the\ x-coordinate\ for\ the\ base\ of\ the\ tree\n\ @param\ y\ the\ y-coordinate\ for\ the\ base\ of\ the\ tree\n\ @return\ the\ current\ tree\ instance\ for\ chaining\n
+comment4.params=branchLength\ depth
+comment4.target=void\ drawTree(double,\ int)
+comment4.text=\n\ Draws\ the\ fractal\ tree\ based\ on\ the\ provided\ branch\ length\ and\ depth\ of\ recursion.\n\ \n\ @param\ branchLength\ initial\ length\ of\ the\ tree's\ main\ branch\n\ @param\ depth\ number\ of\ recursive\ steps\ for\ the\ tree\ drawing\n
+comment5.params=branchLength\ depth\ pen
+comment5.target=void\ draw(double,\ int,\ gpdraw.DrawingTool)
+comment5.text=\n\ Recursive\ method\ to\ draw\ the\ branches\ of\ the\ tree.\n\ \n\ @param\ branchLength\ current\ branch's\ length\n\ @param\ depth\ current\ depth\ of\ recursion\n\ @param\ pen\ the\ DrawingTool\ instance\ used\ for\ drawing\n
+numComments=6
